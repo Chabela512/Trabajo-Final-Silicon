@@ -1,0 +1,152 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.titulo{
+    margin-bottom: 149px;
+    margin-top: -400px;
+    margin-left: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.service{
+    width: 100%; 
+    margin: 50px;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: 49px;
+    padding: 10px;
+}
+.service-1{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color:#8dc848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px; 
+}
+.service-1:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.store{
+    width: 300px;
+    height: 250px;
+}
+.service-2{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color:#8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.service-2:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.service-3{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color: #8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.service-3:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.service-4{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color: #8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+   
+}
+.service-4:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.service-5{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color: #8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.service-5:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.service-6{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color: #8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.service-6:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.service-7{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color: #8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.service-7:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.service-8{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color: #8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.service-8:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.service-9{
+    flex-basis: 30%;
+    padding: 25px;
+    background-color: #8dc848;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.service-9:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.service p {
+    margin-bottom: -350px;
+
+}

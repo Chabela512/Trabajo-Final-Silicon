@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,500;1,600;1,700&family=Roboto:wght@900&display=swap');
+* 
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+   
+
+}
+form{
+    padding:50px 55px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -300px;
+    position: relative;
+}
+
+

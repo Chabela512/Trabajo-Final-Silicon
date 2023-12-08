@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutería y Verduleria</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/acercade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header class="header"> 
+<div class="menu container">
+    <a href="./index.html" class="logo">Fruteria y verduleria</a> 
+    <input type="checkbox" id="menu"/>
+    <label for="menu"> 
+        <img src="./Imagenes/menu.png" class="menu-icono"alt="">
+    </label>
+    <nav class="navbar">
+        <ul>
+            <li> <a href="./index.html">Inicio</a></li>
+            <li> <a href="./pages/productos.html">Productos</a></li>
+            <li> <a href="./pages/carrito.html">Carrito</a></li>
+            <li> <a href="./pages/acercade.html">Acerca de nosotros</a></li>
+            <li> <a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+    <div class="header-content container">
+
+        <div class="header-txt">
+            
+            <h1>Frutas y Verduras</h1>
+            <p>
+                <strong>¡Bienvenido a nuestra frutería fresca y vibrante!</strong> 
+
+En Fruteria y Verdulería,  nos apasiona llevar lo mejor de la naturaleza directamente a tu mesa. Somos tu destino de confianza para obtener productos frescos, saludables y deliciosos que te ayudarán a mantener un estilo de vida equilibrado.</p>
+
+<p><strong>Nuestra Selección</strong>
+
+Descubre una amplia variedad de frutas y verduras de la más alta calidad. Desde las clásicas manzanas y plátanos hasta las exóticas  pitahayas, en nuestra frutería encontrarás una gama de productos que satisfará todos tus antojos y necesidades nutricionales.</p>
+
+<p> <strong>Compromiso con la Frescura:    </strong>
+
+Nos enorgullece ofrecer productos frescos y de temporada. Trabajamos en estrecha colaboración con agricultores locales y proveedores de confianza para asegurarnos de que cada artículo en nuestras estanterías sea de la máxima calidad y sabor.</p>
+
+<strong> Promociones Especiales: </strong>
+
+¡Aprovecha nuestras ofertas especiales y descuentos en productos destacados! Mantente al tanto de nuestras promociones para disfrutar de los mejores precios en tus frutas y verduras favoritas.
+            </p>
+            <a href="./pages/informacion.html" class="btn-1">Información</a>
+        </div>
+        <div class="header-img"> 
+            <img src="   " alt="">
+        </div>
+    </div>
+
+</header>
+
+<section class="oferts container"> 
+    <div class="ofert-1">
+        <img src="./Imagenes/f1.png" alt="">
+        <h3>Oferta</h3>
+        <p>$1.500</p>
+    </div>
+    <div class="ofert-1">
+            <img src="./Imagenes/f2.png" alt="">
+            <h3>Oferta</h3>
+            <p>$800</p>
+    </div>
+    <div class="ofert-1">
+            <img src="./Imagenes/f3.png"alt="">
+            <h3>Oferta</h3>
+            <p>$700</p>
+    </div> 
+    <div class="ofert-1">
+            <img src="./Imagenes/f4.png" alt="">
+            <h3>Oferta</h3>
+            <p>$1000</p>
+    </div>
+</section>
+
+<main class="products container" id="lista-1">
+    <h2>Productos destacados</h2>
+
+    <div class="product-content">
+
+        <div class="product">
+           <img src="./Imagenes/pr1.png" alt="">
+           <div class="product-txt">
+           <h3>Productos</h3>
+           <p class="precio">$1200</p>
+           <button onclick="agregarAlCarrito('Naranjas', 1000)">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <div class="product-content">
+
+        <div class="product">
+           <img src="./Imagenes/pr1.png" alt="">
+           <div class="product-txt">
+           <h3>Productos</h3>
+           <p class="precio">$1394</p>
+           <button onclick="agregarAlCarrito('Manzanas', 2700)">Agregar al Carrito</button>
+        </div>
+    </div>
+        
+    <div class="product-content">
+
+        <div class="product">
+           <img src="./Imagenes/pr1.png" alt="">
+           <div class="product-txt">
+           <h3>Productos</h3>
+           <p class="precio">$1500</p>
+           <button onclick="agregarAlCarrito('Airpods', 29.99)">Agregar al Carrito</button>
+    </div>
+    </div>
+        
+        <div class="product">
+            <img src="./Imagenes/pr2.png" alt="">
+            <div class="product-txt">
+            <h3>Productos</h3>
+            <p class="precio">$1344</p>
+            <button onclick="agregarAlCarrito('Airpods', 29.99)">Agregar al Carrito</button>
+        </div>
+    </div>
+
+        <div class="product">
+            <img src="./Imagenes/pr3.png" alt="">
+            <div class="product-txt">
+            <h3>Productos</h3>
+            <p class="precio">$900</p>
+            <button onclick="agregarAlCarrito('Airpods', 29.99)">Agregar al Carrito</button>
+        </div>
+    </div>
+
+</main>
+<section class="service"> 
+
+    <div class="service-1" alt= "">
+         <img class="store" src="./Imagenes/f1.png" alt="">
+    </div>
+    <div class="service-2">
+        <img class="store" src="./Imagenes/f2.png" alt="">
+    </div>
+    <div class="service-3">
+        <img class="store" src="./Imagenes/f3.png" alt="">
+    </div>
+
+ </section>
+ 
+
+<footer class="footer">
+
+    <div class="footer-content container">
+    
+        <div class="link">
+            <h3>Contacto</h3>
+            <p> Dirección:Avenida de las Américas,Aristóbulo del Valle,Misiones.</p>
+            <p>Teléfono: 3755 558760</p>
+            <p> Correo Electrónico:<a href="mailto:fruteriaverduleria326@gmail.com">fruteriaverduleria326@gmail.com</a></p>
+        </div>
+
+        <div class="seccion-footer">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+                <li><a href="./index.html"> Inicio</a></li>
+                <li><a href="./pages/informacion.html"> Información</a></li>
+                <li><a href="./pages/productos.html"> Productos</a></li>
+                <li><a href="./pages/carrito.html"> Carrito</a></li>
+                <li><a href="./pages/contacto.html"> Contacto</a></li>
+           
+            </ul>
+       </div>
+
+       <div class="seccion-footer">
+        <h3>Síguenos</h3>
+        <ul class="redes-sociales">
+            <li><a href="https://www.facebook.com/fruteriaverduleria.2023?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook">Facebook</i></a></li>
+            <li><a href="https://instagram.com/fru_teriaverduleria?igshid=NzZlODBkYWE4Ng" target="_blank"><i class="fab fa-instagram">Instagram</i></a></li>
+        </ul>
+    </div>
+    
+</div>
+<div class="creditos">
+    <p>&copy; 2023 Frutería y Verduleria | Desarrollado por [Gonzalez Chabela]</p>
+</div>
+
+
+</footer>
+
+<script>
+    function agregarAlCarrito(nombre, precio){
+      let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+      carrito.push({nombre, precio});
+      localStorage.setItem('carrito', JSON.stringify(carrito));
+      alert(`El producto "${nombre}" se agregó al carrito`)
+    }
+  </script>
+</body>
+</html>

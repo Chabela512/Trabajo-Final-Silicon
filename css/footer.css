@@ -1,0 +1,45 @@
+.footer{
+    padding: 50px 0;
+    background-color:aqua;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.link a {
+    color: #f3f3f3;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #ffffff;
+}
+@media(max-width:991px) {
+      
+    .menu{
+          padding: 30px;
+}
+    .menu label{
+          display: initial;
+}
+     .menu .navbar{
+      position: absolute;
+      top:100%;
+      left:0;
+      right:0;
+      background-color: #303030;
+      display: none;
+}
+     .menu .navbar ul li {
+      width:100%;
+}
+     .menu .navbar ul li a {
+      color: #ffffff;
+}
+}

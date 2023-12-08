@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,500;1,600;1,700&family=Roboto:wght@900&display=swap');
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    margin: 0;
+    background-color: aqua;
+    
+}
+
+.cart {
+    width: 620px; /* Ancho de la sección del carrito */
+    padding: 60px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -320px;
+    margin-bottom: 200px;
+    border: 2px solid #007BFF;
+
+    
+    
+}
+.comprar-btn {
+    width:40%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.comprar-btn:hover {
+    background-color: #45a049;
+}
+
+
+.footer{
+    padding: 50px 0;
+    background-color:aqua;
+    border: 2px solid #007BFF;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
