@@ -14,7 +14,6 @@
 - Catálogo de frutas y verduras.
 - Consejos para la conservación de los productos.
 - Historia de la frutería.
-- 
 # Herramientas utilizadas: 
 -Html
 -Css
